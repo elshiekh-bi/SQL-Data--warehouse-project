@@ -9,17 +9,17 @@ This project demonstrates the design and implementation of a modern Data Warehou
 
 This project follows the Medallion Architecture approach with three layers:
 
-Bronze Layer
+Bronze Layer :
 Stores raw ERP and CRM data imported from CSV files.
 Preserves source data for traceability and auditing.
 
                     
-Silver Layer
+Silver Layer :
 Performs data cleansing, standardization, validation, and transformation.
 Improves data quality and consistency.
 
               
-Gold Layer 
+Gold Layer :
 Delivers business-ready datasets modeled using a Star Schema.
 Optimized for reporting, analytics, and decision-making.
 
